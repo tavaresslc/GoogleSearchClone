@@ -1,0 +1,71 @@
+@media (max-width: 365px) {
+  .app {
+    padding-top: 40%;
+  }
+
+  .app > .logo {
+    width: 280px;
+    height: 140px;
+  }
+
+  .app > .form input {
+    width: 280px;
+  }
+
+  .app > .form ul {
+    width: 280px;
+  }
+
+  .app > .form i {
+    width: 280px;
+  }
+
+  .historic {
+    padding: 24px;
+  }
+
+  .historic > #result {
+    width: 85vw;
+    max-height: 100vh;
+  }
+
+  .historic #open {
+    margin-right: 150px;
+  }
+}
+
+@media (min-width: 365px) and (max-width: 576px) {
+  .app {
+    padding-top: 25%;
+  }
+
+  .app > .logo {
+    width: 320px;
+    height: 160px;
+  }
+
+  .app > .form input {
+    width: 320px;
+  }
+
+  .app > .form ul {
+    width: 320px;
+  }
+
+  .app > .form i {
+    width: 320px;
+  }
+
+  .historic {
+    padding: 24px;
+  }
+
+  .historic > #result {
+    width: 85vw;
+    max-height: 100vh;
+  }
+
+  .historic #open {
+    margin-right: 150px;
+  }
+}

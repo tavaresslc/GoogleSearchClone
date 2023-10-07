@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image.svg" href="src/img/google-g-2015-logo-svg-vector.svg">
+    <title>Google Search Clone</title>
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <div class="app">
+        <img src="src/img/Google-Logo.wine.svg" alt="Google Logo" class="logo">
+        <div class="form">
+            <form id="form">
+                <div class="campo">
+                    <img src="src/img/search.png" alt="Search icon" class="search">
+                    <input type="text" value="" autocomplete="off" class="input">
+                    <img src="src/img/mic.png" alt="Mic icon" class="mic" id="startRecording">
+                </div>
+                <ul id="suggestions"></ul>
+            </div>
+            </form>
+        </div>
+        <div class="historic">
+            <h2>Histórico<i class="fas fa-chevron-down" id="open"></i><i class="fas fa-trash" id="trash"></i></h2>
+            <div id="result"></div>
+        </div>
+    </div>
+    
+    <script src="src/js/script.js"></script>
+</body>
+</html>
