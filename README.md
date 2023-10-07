@@ -1,6 +1,6 @@
 # Google Search Clone 🌐💻
 
-Olá, pessoal! Estou empolgado em compartilhar meu mais recente projeto, um clone do Google Search. Neste projeto, utilizei várias tecnologias, incluindo JavaScript, HTML e CSS para criar uma experiência de pesquisa semelhante ao Google.
+Bem-vindo ao repositório do meu projeto "Google Search Clone"! Este é um clone da famosa página de pesquisa do Google, criado com as tecnologias JavaScript, HTML e CSS. Neste README, vou fornecer uma visão geral do projeto e como você pode experimentá-lo.
 
 ## Destaques do Projeto
 
